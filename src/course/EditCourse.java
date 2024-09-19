@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.JCheckBox;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.PreparedStatement;
 import database.Connect;
 
 public class EditCourse extends JPanel implements ItemListener{
@@ -35,7 +35,7 @@ public class EditCourse extends JPanel implements ItemListener{
 	private String CourseName;
 	private String[] QuestionID;
 	private static int TotalQuestions;
-	private Connect c=new Connect("root","");
+	private Connect c=new Connect("root","1234");
 	private JTabbedPane jt;
 	private boolean hide;
 	private static int eachMark;

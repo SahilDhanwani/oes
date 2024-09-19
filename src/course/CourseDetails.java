@@ -8,7 +8,7 @@ import database.Connect;
 
 public class CourseDetails {
 
-	static Connect c=new Connect("root","");
+	static Connect c=new Connect("root","1234");
 	public String[] Courses;
 	public String[] HiddenCourses;
 	public ResultSet rs;

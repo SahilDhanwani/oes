@@ -26,7 +26,7 @@ public class MainAdmin extends JPanel {
 	
 	private boolean executeQuery(String query)
 	{
-		Connect c=new Connect("root","");
+		Connect c=new Connect("root","1234");
 		try{
 			Statement st=c.con.createStatement();
 			if(st.executeQuery(query).next())

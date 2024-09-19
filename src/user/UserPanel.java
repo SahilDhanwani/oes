@@ -33,7 +33,7 @@ public class UserPanel extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	Connect c=new Connect("root","");
+	Connect c=new Connect("root","1234");
 	private String[] Courses;
 	private String Name;
 	private String Username;

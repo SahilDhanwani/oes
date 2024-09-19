@@ -32,7 +32,7 @@ public class Verification extends JPanel {
 	private String[] verify;
 	private static boolean enteredInGUI=false;
 	
-	private Connect c=new Connect("root","");
+	private Connect c=new Connect("root","1234");
 	
 	private void databaseVerify()
 	{

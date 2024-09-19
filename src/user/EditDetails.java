@@ -28,7 +28,7 @@ public class EditDetails{
 	
 	private void databaseWork(String u_name)
 	{
-		Connect c=new Connect("root","");
+		Connect c=new Connect("root","1234");
 		try{
 			Statement stmt=c.con.createStatement();
 			String query="select *from userdetails where username='"+u_name+"'";

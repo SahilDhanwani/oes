@@ -18,7 +18,7 @@ import javax.swing.SwingConstants;
 import javax.swing.border.LineBorder;
 import main.MainFrame;
 import javax.swing.JTextField;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.PreparedStatement;
 import database.Connect;
 
 public class AddNewCourse extends JPanel implements FocusListener {
@@ -33,7 +33,7 @@ public class AddNewCourse extends JPanel implements FocusListener {
 	 */
 	private boolean addCourse(String courseName,String time)
 	{
-		Connect c=new Connect("root","");
+		Connect c=new Connect("root","1234");
 		try{
 			String query="INSERT INTO course_details (course_name,time,date_of_creation,question_mark) VALUES(?,?,current_timestamp,?)";
 			PreparedStatement ps=(PreparedStatement)c.con.prepareStatement(query);

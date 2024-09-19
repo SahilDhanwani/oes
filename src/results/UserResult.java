@@ -24,7 +24,7 @@ public class UserResult {
 
 	private String USERNAME;
 	private String[][] DATA;
-	Connect c=new Connect("root","");
+	Connect c=new Connect("root","1234");
 	ResultSet rs;
 	private String Handler;
 	

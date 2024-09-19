@@ -69,7 +69,7 @@ public class UserData extends JPanel{
 	public UserData(String username,boolean makeGui,String PanelName)
 	{
 		this.PanelName=PanelName;
-		Connect c=new Connect("root","");
+		Connect c=new Connect("root","1234");
 		try{
 			Statement stmt=c.con.createStatement();
 			String query="select *from userdetails where username='"+username+"'";

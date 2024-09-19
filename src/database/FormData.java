@@ -2,12 +2,12 @@ package database;
 
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.PreparedStatement;
 import user.RegistrationForm;
 
 public class FormData {
 
-	private static Connect c=new Connect("root","");
+	private static Connect c=new Connect("root","1234");
 	public static boolean saveData(RegistrationForm rf)
 	{
 		try{

@@ -25,7 +25,7 @@ public class CourseResult{
 	 */
 	private String CourseName;
 	private String[][] DATA;
-	Connect c=new Connect("root","");
+	Connect c=new Connect("root","1234");
 	ResultSet rs;
 	/**
 	 * Create the panel.

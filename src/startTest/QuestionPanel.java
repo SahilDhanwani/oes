@@ -23,7 +23,7 @@ public class QuestionPanel extends JPanel implements ActionListener{
 	 * This panel is smaller than the Main BeginTest Panel
 	 */
 
-	private Connect c=new Connect("root","");
+	private Connect c=new Connect("root","1234");
 	private String CourseName;
 	private ResultSet rs;
 	private int q_number=1;

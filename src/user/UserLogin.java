@@ -34,7 +34,7 @@ public class UserLogin extends JPanel implements FocusListener{
 	private JTextField txtUsername;
 	private JPasswordField txtPassword;
 
-	Connect c=new Connect("root","");
+	Connect c=new Connect("root","1234");
 	/**
 	 * Create the panel.
 	 */

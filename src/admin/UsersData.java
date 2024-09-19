@@ -23,7 +23,7 @@ import database.UserData;
 public class UsersData extends JPanel {
 
 
-	private static Connect c=new Connect("root","");
+	private static Connect c=new Connect("root","1234");
 	private JComboBox<String> comboBox;
 	private String Username;
 	private String[] DATA;

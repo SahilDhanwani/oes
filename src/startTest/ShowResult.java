@@ -159,7 +159,7 @@ public class ShowResult extends JPanel {
 		save.setFocusable(false);
 		save.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				Connect c=new Connect("root","");
+				Connect c=new Connect("root","1234");
 				try{
 					Statement st=c.con.createStatement();
 					System.out.println("sdsd");

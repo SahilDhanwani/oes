@@ -68,7 +68,7 @@ public class BeginTest extends JPanel {
 	
 	private void executeQuery()
 	{
-		Connect c=new Connect("root","");
+		Connect c=new Connect("root","1234");
 		try{
 			Statement st=c.con.createStatement();
 			String temp="select time from course_details where course_name='"+courseName+"'";
